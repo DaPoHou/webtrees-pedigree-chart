@@ -52,7 +52,7 @@
 
 #webtrees-pedigree-chart-container div.overlay .tooltip {
     font-size: 22px;
-    color: white;
+    color: rgb(255, 255, 255);
     position: relative;
     margin: 0;
     top: 50%;

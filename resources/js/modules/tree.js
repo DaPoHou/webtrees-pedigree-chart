@@ -161,8 +161,7 @@ export default class Tree
             .attr("y", -(this._orientation.boxHeight / 2))
             .attr("width", this._orientation.boxWidth)
             .attr("height", this._orientation.boxHeight)
-            .attr("fill-opacity", 0.5)
-            .attr("fill", d => d.data.color);
+            .attr("fill-opacity", 0.5);
 
         // Names and Dates
         nodeEnter
